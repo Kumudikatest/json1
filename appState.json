@@ -1,0 +1,110 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "06c80206-2c07-4359-9b10-e0533d944179": {
+        "id": "06c80206-2c07-4359-9b10-e0533d944179",
+        "parent": null,
+        "name": "json1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "45bbe9e6-9eee-4bf2-8d70-8ca9f6c71ead",
+          "640795c6-7ab8-4662-bf2f-f34f3dd1199c"
+        ],
+        "isRemovable": false,
+        "filePath": "json1"
+      },
+      "45bbe9e6-9eee-4bf2-8d70-8ca9f6c71ead": {
+        "id": "45bbe9e6-9eee-4bf2-8d70-8ca9f6c71ead",
+        "parent": "06c80206-2c07-4359-9b10-e0533d944179",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "json1/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "640795c6-7ab8-4662-bf2f-f34f3dd1199c": {
+        "id": "640795c6-7ab8-4662-bf2f-f34f3dd1199c",
+        "parent": "06c80206-2c07-4359-9b10-e0533d944179",
+        "name": "newsub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "f8d96e70-7390-4bb9-9acd-48a489a00d7d",
+          "5458e890-ece5-4060-abb6-2720b2d09730"
+        ],
+        "isRemovable": true,
+        "filePath": "json1/newsub1"
+      },
+      "f8d96e70-7390-4bb9-9acd-48a489a00d7d": {
+        "id": "f8d96e70-7390-4bb9-9acd-48a489a00d7d",
+        "parent": "640795c6-7ab8-4662-bf2f-f34f3dd1199c",
+        "name": "sub2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "json1/newsub1/sub2"
+      },
+      "5458e890-ece5-4060-abb6-2720b2d09730": {
+        "id": "5458e890-ece5-4060-abb6-2720b2d09730",
+        "parent": "640795c6-7ab8-4662-bf2f-f34f3dd1199c",
+        "name": "json1.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "json1/newsub1/json1.json"
+      }
+    },
+    "rootNode": "06c80206-2c07-4359-9b10-e0533d944179",
+    "openFiles": [
+      "45bbe9e6-9eee-4bf2-8d70-8ca9f6c71ead",
+      "5458e890-ece5-4060-abb6-2720b2d09730"
+    ],
+    "currentFileId": "5458e890-ece5-4060-abb6-2720b2d09730",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "json1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576744308916
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "json1",
+      "url": "https://github.com/Kumudikatest/json1"
+    }
+  }
+}
